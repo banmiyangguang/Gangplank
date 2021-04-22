@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B26A40D26317F62007F4611 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26A40C26317F62007F4611 /* AppDelegate.m */; };
+		2B26A41026317F62007F4611 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26A40F26317F62007F4611 /* SceneDelegate.m */; };
+		2B26A41326317F62007F4611 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26A41226317F62007F4611 /* ViewController.m */; };
+		2B26A41626317F62007F4611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B26A41426317F62007F4611 /* Main.storyboard */; };
+		2B26A41826317F64007F4611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B26A41726317F64007F4611 /* Assets.xcassets */; };
+		2B26A41B26317F64007F4611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B26A41926317F64007F4611 /* LaunchScreen.storyboard */; };
+		2B26A41E26317F64007F4611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26A41D26317F64007F4611 /* main.m */; };
+		2B26A42826317F64007F4611 /* GangplankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26A42726317F64007F4611 /* GangplankTests.m */; };
+		2B26A43326317F64007F4611 /* GangplankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26A43226317F64007F4611 /* GangplankUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B26A42426317F64007F4611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B26A40026317F62007F4611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B26A40726317F62007F4611;
+			remoteInfo = Gangplank;
+		};
+		2B26A42F26317F64007F4611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B26A40026317F62007F4611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B26A40726317F62007F4611;
+			remoteInfo = Gangplank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B26A40826317F62007F4611 /* Gangplank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gangplank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B26A40B26317F62007F4611 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B26A40C26317F62007F4611 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B26A40E26317F62007F4611 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2B26A40F26317F62007F4611 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2B26A41126317F62007F4611 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B26A41226317F62007F4611 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B26A41526317F62007F4611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B26A41726317F64007F4611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B26A41A26317F64007F4611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B26A41C26317F64007F4611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B26A41D26317F64007F4611 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B26A42326317F64007F4611 /* GangplankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GangplankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B26A42726317F64007F4611 /* GangplankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GangplankTests.m; sourceTree = "<group>"; };
+		2B26A42926317F64007F4611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B26A42E26317F64007F4611 /* GangplankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GangplankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B26A43226317F64007F4611 /* GangplankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GangplankUITests.m; sourceTree = "<group>"; };
+		2B26A43426317F64007F4611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B26A40526317F62007F4611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B26A42026317F64007F4611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B26A42B26317F64007F4611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B26A3FF26317F62007F4611 = {
+			isa = PBXGroup;
+			children = (
+				2B26A40A26317F62007F4611 /* Gangplank */,
+				2B26A42626317F64007F4611 /* GangplankTests */,
+				2B26A43126317F64007F4611 /* GangplankUITests */,
+				2B26A40926317F62007F4611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B26A40926317F62007F4611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B26A40826317F62007F4611 /* Gangplank.app */,
+				2B26A42326317F64007F4611 /* GangplankTests.xctest */,
+				2B26A42E26317F64007F4611 /* GangplankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B26A40A26317F62007F4611 /* Gangplank */ = {
+			isa = PBXGroup;
+			children = (
+				2B26A40B26317F62007F4611 /* AppDelegate.h */,
+				2B26A40C26317F62007F4611 /* AppDelegate.m */,
+				2B26A40E26317F62007F4611 /* SceneDelegate.h */,
+				2B26A40F26317F62007F4611 /* SceneDelegate.m */,
+				2B26A41126317F62007F4611 /* ViewController.h */,
+				2B26A41226317F62007F4611 /* ViewController.m */,
+				2B26A41426317F62007F4611 /* Main.storyboard */,
+				2B26A41726317F64007F4611 /* Assets.xcassets */,
+				2B26A41926317F64007F4611 /* LaunchScreen.storyboard */,
+				2B26A41C26317F64007F4611 /* Info.plist */,
+				2B26A41D26317F64007F4611 /* main.m */,
+			);
+			path = Gangplank;
+			sourceTree = "<group>";
+		};
+		2B26A42626317F64007F4611 /* GangplankTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B26A42726317F64007F4611 /* GangplankTests.m */,
+				2B26A42926317F64007F4611 /* Info.plist */,
+			);
+			path = GangplankTests;
+			sourceTree = "<group>";
+		};
+		2B26A43126317F64007F4611 /* GangplankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B26A43226317F64007F4611 /* GangplankUITests.m */,
+				2B26A43426317F64007F4611 /* Info.plist */,
+			);
+			path = GangplankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B26A40726317F62007F4611 /* Gangplank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B26A43726317F64007F4611 /* Build configuration list for PBXNativeTarget "Gangplank" */;
+			buildPhases = (
+				2B26A40426317F62007F4611 /* Sources */,
+				2B26A40526317F62007F4611 /* Frameworks */,
+				2B26A40626317F62007F4611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gangplank;
+			productName = Gangplank;
+			productReference = 2B26A40826317F62007F4611 /* Gangplank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B26A42226317F64007F4611 /* GangplankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B26A43A26317F64007F4611 /* Build configuration list for PBXNativeTarget "GangplankTests" */;
+			buildPhases = (
+				2B26A41F26317F64007F4611 /* Sources */,
+				2B26A42026317F64007F4611 /* Frameworks */,
+				2B26A42126317F64007F4611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B26A42526317F64007F4611 /* PBXTargetDependency */,
+			);
+			name = GangplankTests;
+			productName = GangplankTests;
+			productReference = 2B26A42326317F64007F4611 /* GangplankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B26A42D26317F64007F4611 /* GangplankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B26A43D26317F64007F4611 /* Build configuration list for PBXNativeTarget "GangplankUITests" */;
+			buildPhases = (
+				2B26A42A26317F64007F4611 /* Sources */,
+				2B26A42B26317F64007F4611 /* Frameworks */,
+				2B26A42C26317F64007F4611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B26A43026317F64007F4611 /* PBXTargetDependency */,
+			);
+			name = GangplankUITests;
+			productName = GangplankUITests;
+			productReference = 2B26A42E26317F64007F4611 /* GangplankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B26A40026317F62007F4611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2B26A40726317F62007F4611 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2B26A42226317F64007F4611 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2B26A40726317F62007F4611;
+					};
+					2B26A42D26317F64007F4611 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2B26A40726317F62007F4611;
+					};
+				};
+			};
+			buildConfigurationList = 2B26A40326317F62007F4611 /* Build configuration list for PBXProject "Gangplank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B26A3FF26317F62007F4611;
+			productRefGroup = 2B26A40926317F62007F4611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B26A40726317F62007F4611 /* Gangplank */,
+				2B26A42226317F64007F4611 /* GangplankTests */,
+				2B26A42D26317F64007F4611 /* GangplankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B26A40626317F62007F4611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B26A41B26317F64007F4611 /* LaunchScreen.storyboard in Resources */,
+				2B26A41826317F64007F4611 /* Assets.xcassets in Resources */,
+				2B26A41626317F62007F4611 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B26A42126317F64007F4611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B26A42C26317F64007F4611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B26A40426317F62007F4611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B26A41326317F62007F4611 /* ViewController.m in Sources */,
+				2B26A40D26317F62007F4611 /* AppDelegate.m in Sources */,
+				2B26A41E26317F64007F4611 /* main.m in Sources */,
+				2B26A41026317F62007F4611 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B26A41F26317F64007F4611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B26A42826317F64007F4611 /* GangplankTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B26A42A26317F64007F4611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B26A43326317F64007F4611 /* GangplankUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B26A42526317F64007F4611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B26A40726317F62007F4611 /* Gangplank */;
+			targetProxy = 2B26A42426317F64007F4611 /* PBXContainerItemProxy */;
+		};
+		2B26A43026317F64007F4611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B26A40726317F62007F4611 /* Gangplank */;
+			targetProxy = 2B26A42F26317F64007F4611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B26A41426317F62007F4611 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B26A41526317F62007F4611 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B26A41926317F64007F4611 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B26A41A26317F64007F4611 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B26A43526317F64007F4611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B26A43626317F64007F4611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B26A43826317F64007F4611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV2DTY8NBC;
+				INFOPLIST_FILE = Gangplank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gangplank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B26A43926317F64007F4611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV2DTY8NBC;
+				INFOPLIST_FILE = Gangplank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gangplank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B26A43B26317F64007F4611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV2DTY8NBC;
+				INFOPLIST_FILE = GangplankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GangplankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gangplank.app/Gangplank";
+			};
+			name = Debug;
+		};
+		2B26A43C26317F64007F4611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV2DTY8NBC;
+				INFOPLIST_FILE = GangplankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GangplankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gangplank.app/Gangplank";
+			};
+			name = Release;
+		};
+		2B26A43E26317F64007F4611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV2DTY8NBC;
+				INFOPLIST_FILE = GangplankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GangplankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gangplank;
+			};
+			name = Debug;
+		};
+		2B26A43F26317F64007F4611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV2DTY8NBC;
+				INFOPLIST_FILE = GangplankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GangplankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gangplank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B26A40326317F62007F4611 /* Build configuration list for PBXProject "Gangplank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B26A43526317F64007F4611 /* Debug */,
+				2B26A43626317F64007F4611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B26A43726317F64007F4611 /* Build configuration list for PBXNativeTarget "Gangplank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B26A43826317F64007F4611 /* Debug */,
+				2B26A43926317F64007F4611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B26A43A26317F64007F4611 /* Build configuration list for PBXNativeTarget "GangplankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B26A43B26317F64007F4611 /* Debug */,
+				2B26A43C26317F64007F4611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B26A43D26317F64007F4611 /* Build configuration list for PBXNativeTarget "GangplankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B26A43E26317F64007F4611 /* Debug */,
+				2B26A43F26317F64007F4611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B26A40026317F62007F4611 /* Project object */;
+}
