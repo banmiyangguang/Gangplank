@@ -16,6 +16,7 @@
 		2B26A41E26317F64007F4611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26A41D26317F64007F4611 /* main.m */; };
 		2B26A42826317F64007F4611 /* GangplankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26A42726317F64007F4611 /* GangplankTests.m */; };
 		2B26A43326317F64007F4611 /* GangplankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26A43226317F64007F4611 /* GangplankUITests.m */; };
+		2B26D01E26383D27007F4611 /* ZZAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26D01D26383D27007F4611 /* ZZAlbumViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,9 @@
 		2B26A42E26317F64007F4611 /* GangplankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GangplankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B26A43226317F64007F4611 /* GangplankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GangplankUITests.m; sourceTree = "<group>"; };
 		2B26A43426317F64007F4611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B26D01C26383D27007F4611 /* ZZAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAlbumViewController.h; sourceTree = "<group>"; };
+		2B26D01D26383D27007F4611 /* ZZAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAlbumViewController.m; sourceTree = "<group>"; };
+		2B26D023263840D8007F4611 /* ZZCommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCommonUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,9 @@
 				2B26A41926317F64007F4611 /* LaunchScreen.storyboard */,
 				2B26A41C26317F64007F4611 /* Info.plist */,
 				2B26A41D26317F64007F4611 /* main.m */,
+				2B26D01C26383D27007F4611 /* ZZAlbumViewController.h */,
+				2B26D01D26383D27007F4611 /* ZZAlbumViewController.m */,
+				2B26D023263840D8007F4611 /* ZZCommonUtils.h */,
 			);
 			path = Gangplank;
 			sourceTree = "<group>";
@@ -266,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B26D01E26383D27007F4611 /* ZZAlbumViewController.m in Sources */,
 				2B26A41326317F62007F4611 /* ViewController.m in Sources */,
 				2B26A40D26317F62007F4611 /* AppDelegate.m in Sources */,
 				2B26A41E26317F64007F4611 /* main.m in Sources */,
@@ -442,8 +450,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XV2DTY8NBC;
+				DEVELOPMENT_TEAM = AWGZPY4LCG;
 				INFOPLIST_FILE = Gangplank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,8 +469,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XV2DTY8NBC;
+				DEVELOPMENT_TEAM = AWGZPY4LCG;
 				INFOPLIST_FILE = Gangplank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
