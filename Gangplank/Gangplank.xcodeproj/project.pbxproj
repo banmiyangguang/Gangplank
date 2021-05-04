@@ -17,6 +17,10 @@
 		2B26A42826317F64007F4611 /* GangplankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26A42726317F64007F4611 /* GangplankTests.m */; };
 		2B26A43326317F64007F4611 /* GangplankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26A43226317F64007F4611 /* GangplankUITests.m */; };
 		2B26D01E26383D27007F4611 /* ZZAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26D01D26383D27007F4611 /* ZZAlbumViewController.m */; };
+		2BC102062640472A000E90A2 /* KVOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC102052640472A000E90A2 /* KVOTest.m */; };
+		2BC1020A26404758000E90A2 /* ZZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1020926404758000E90A2 /* ZZPerson.m */; };
+		2BC1020D26405BF0000E90A2 /* ZZSystemMethodWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1020C26405BF0000E90A2 /* ZZSystemMethodWrapper.m */; };
+		2BC102122641114D000E90A2 /* NSObject+ZZKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC102112641114D000E90A2 /* NSObject+ZZKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,14 @@
 		2B26D01C26383D27007F4611 /* ZZAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAlbumViewController.h; sourceTree = "<group>"; };
 		2B26D01D26383D27007F4611 /* ZZAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAlbumViewController.m; sourceTree = "<group>"; };
 		2B26D023263840D8007F4611 /* ZZCommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCommonUtils.h; sourceTree = "<group>"; };
+		2BC102042640472A000E90A2 /* KVOTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOTest.h; sourceTree = "<group>"; };
+		2BC102052640472A000E90A2 /* KVOTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTest.m; sourceTree = "<group>"; };
+		2BC1020826404758000E90A2 /* ZZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPerson.h; sourceTree = "<group>"; };
+		2BC1020926404758000E90A2 /* ZZPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPerson.m; sourceTree = "<group>"; };
+		2BC1020B26405BF0000E90A2 /* ZZSystemMethodWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSystemMethodWrapper.h; sourceTree = "<group>"; };
+		2BC1020C26405BF0000E90A2 /* ZZSystemMethodWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSystemMethodWrapper.m; sourceTree = "<group>"; };
+		2BC102102641114D000E90A2 /* NSObject+ZZKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZZKVO.h"; sourceTree = "<group>"; };
+		2BC102112641114D000E90A2 /* NSObject+ZZKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZZKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +120,9 @@
 		2B26A40A26317F62007F4611 /* Gangplank */ = {
 			isa = PBXGroup;
 			children = (
+				2BC1020F26405C2B000E90A2 /* SystemMethods */,
+				2BC1020726404739000E90A2 /* CommonTestClass */,
+				2BC102032640470B000E90A2 /* AppleDocument */,
 				2B26A40B26317F62007F4611 /* AppDelegate.h */,
 				2B26A40C26317F62007F4611 /* AppDelegate.m */,
 				2B26A40E26317F62007F4611 /* SceneDelegate.h */,
@@ -142,6 +157,35 @@
 				2B26A43426317F64007F4611 /* Info.plist */,
 			);
 			path = GangplankUITests;
+			sourceTree = "<group>";
+		};
+		2BC102032640470B000E90A2 /* AppleDocument */ = {
+			isa = PBXGroup;
+			children = (
+				2BC102042640472A000E90A2 /* KVOTest.h */,
+				2BC102052640472A000E90A2 /* KVOTest.m */,
+				2BC102102641114D000E90A2 /* NSObject+ZZKVO.h */,
+				2BC102112641114D000E90A2 /* NSObject+ZZKVO.m */,
+			);
+			path = AppleDocument;
+			sourceTree = "<group>";
+		};
+		2BC1020726404739000E90A2 /* CommonTestClass */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1020826404758000E90A2 /* ZZPerson.h */,
+				2BC1020926404758000E90A2 /* ZZPerson.m */,
+			);
+			path = CommonTestClass;
+			sourceTree = "<group>";
+		};
+		2BC1020F26405C2B000E90A2 /* SystemMethods */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1020B26405BF0000E90A2 /* ZZSystemMethodWrapper.h */,
+				2BC1020C26405BF0000E90A2 /* ZZSystemMethodWrapper.m */,
+			);
+			path = SystemMethods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +319,11 @@
 			files = (
 				2B26D01E26383D27007F4611 /* ZZAlbumViewController.m in Sources */,
 				2B26A41326317F62007F4611 /* ViewController.m in Sources */,
+				2BC102062640472A000E90A2 /* KVOTest.m in Sources */,
 				2B26A40D26317F62007F4611 /* AppDelegate.m in Sources */,
+				2BC1020A26404758000E90A2 /* ZZPerson.m in Sources */,
+				2BC102122641114D000E90A2 /* NSObject+ZZKVO.m in Sources */,
+				2BC1020D26405BF0000E90A2 /* ZZSystemMethodWrapper.m in Sources */,
 				2B26A41E26317F64007F4611 /* main.m in Sources */,
 				2B26A41026317F62007F4611 /* SceneDelegate.m in Sources */,
 			);

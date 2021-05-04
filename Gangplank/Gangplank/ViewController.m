@@ -7,10 +7,12 @@
 
 #import "ViewController.h"
 #import "ZZAlbumViewController.h"
+#import "KVOTest.h"
 
 @interface ViewController ()
 
 @property (nonatomic, strong) UIButton *albumButton;
+@property (nonatomic, strong) KVOTest  *kvoTest;
 
 @end
 
@@ -22,6 +24,12 @@
     self.view.backgroundColor = [UIColor whiteColor];
 
     [self.view addSubview:self.albumButton];
+    
+    // kvo test
+    _kvoTest = [[KVOTest alloc] init];
+    
+    NSString *testStr = @"helloworld";
+    NSLog(@"%@", [testStr capitalizedString]);
 }
 
 - (UIButton *)albumButton {
@@ -38,6 +46,7 @@
 {
     ZZAlbumViewController *albumVC = [[ZZAlbumViewController alloc] init];
     [self.navigationController presentViewController:albumVC animated:YES completion:nil];
+//    _kvoTest.person.age ++;
 }
 
 @end
