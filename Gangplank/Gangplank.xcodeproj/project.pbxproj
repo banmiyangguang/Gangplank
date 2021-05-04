@@ -21,6 +21,9 @@
 		2BC1020A26404758000E90A2 /* ZZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1020926404758000E90A2 /* ZZPerson.m */; };
 		2BC1020D26405BF0000E90A2 /* ZZSystemMethodWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1020C26405BF0000E90A2 /* ZZSystemMethodWrapper.m */; };
 		2BC102122641114D000E90A2 /* NSObject+ZZKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC102112641114D000E90A2 /* NSObject+ZZKVO.m */; };
+		2BC102152641245F000E90A2 /* ZZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC102142641245F000E90A2 /* ZZCollectionViewCell.m */; };
+		2BC102182641371D000E90A2 /* ZZCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC102172641371D000E90A2 /* ZZCollectionReusableView.m */; };
+		2BC1021B26413BF4000E90A2 /* ZZCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1021A26413BF4000E90A2 /* ZZCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,12 @@
 		2BC1020C26405BF0000E90A2 /* ZZSystemMethodWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSystemMethodWrapper.m; sourceTree = "<group>"; };
 		2BC102102641114D000E90A2 /* NSObject+ZZKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZZKVO.h"; sourceTree = "<group>"; };
 		2BC102112641114D000E90A2 /* NSObject+ZZKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZZKVO.m"; sourceTree = "<group>"; };
+		2BC102132641245F000E90A2 /* ZZCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCollectionViewCell.h; sourceTree = "<group>"; };
+		2BC102142641245F000E90A2 /* ZZCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCollectionViewCell.m; sourceTree = "<group>"; };
+		2BC102162641371D000E90A2 /* ZZCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCollectionReusableView.h; sourceTree = "<group>"; };
+		2BC102172641371D000E90A2 /* ZZCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCollectionReusableView.m; sourceTree = "<group>"; };
+		2BC1021926413BF4000E90A2 /* ZZCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		2BC1021A26413BF4000E90A2 /* ZZCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +143,6 @@
 				2B26A41926317F64007F4611 /* LaunchScreen.storyboard */,
 				2B26A41C26317F64007F4611 /* Info.plist */,
 				2B26A41D26317F64007F4611 /* main.m */,
-				2B26D01C26383D27007F4611 /* ZZAlbumViewController.h */,
-				2B26D01D26383D27007F4611 /* ZZAlbumViewController.m */,
-				2B26D023263840D8007F4611 /* ZZCommonUtils.h */,
 			);
 			path = Gangplank;
 			sourceTree = "<group>";
@@ -166,6 +172,14 @@
 				2BC102052640472A000E90A2 /* KVOTest.m */,
 				2BC102102641114D000E90A2 /* NSObject+ZZKVO.h */,
 				2BC102112641114D000E90A2 /* NSObject+ZZKVO.m */,
+				2BC102132641245F000E90A2 /* ZZCollectionViewCell.h */,
+				2BC102142641245F000E90A2 /* ZZCollectionViewCell.m */,
+				2BC102162641371D000E90A2 /* ZZCollectionReusableView.h */,
+				2BC102172641371D000E90A2 /* ZZCollectionReusableView.m */,
+				2BC1021926413BF4000E90A2 /* ZZCollectionViewFlowLayout.h */,
+				2BC1021A26413BF4000E90A2 /* ZZCollectionViewFlowLayout.m */,
+				2B26D01C26383D27007F4611 /* ZZAlbumViewController.h */,
+				2B26D01D26383D27007F4611 /* ZZAlbumViewController.m */,
 			);
 			path = AppleDocument;
 			sourceTree = "<group>";
@@ -173,6 +187,7 @@
 		2BC1020726404739000E90A2 /* CommonTestClass */ = {
 			isa = PBXGroup;
 			children = (
+				2B26D023263840D8007F4611 /* ZZCommonUtils.h */,
 				2BC1020826404758000E90A2 /* ZZPerson.h */,
 				2BC1020926404758000E90A2 /* ZZPerson.m */,
 			);
@@ -318,13 +333,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B26D01E26383D27007F4611 /* ZZAlbumViewController.m in Sources */,
+				2BC102182641371D000E90A2 /* ZZCollectionReusableView.m in Sources */,
 				2B26A41326317F62007F4611 /* ViewController.m in Sources */,
 				2BC102062640472A000E90A2 /* KVOTest.m in Sources */,
+				2BC1021B26413BF4000E90A2 /* ZZCollectionViewFlowLayout.m in Sources */,
 				2B26A40D26317F62007F4611 /* AppDelegate.m in Sources */,
 				2BC1020A26404758000E90A2 /* ZZPerson.m in Sources */,
 				2BC102122641114D000E90A2 /* NSObject+ZZKVO.m in Sources */,
 				2BC1020D26405BF0000E90A2 /* ZZSystemMethodWrapper.m in Sources */,
 				2B26A41E26317F64007F4611 /* main.m in Sources */,
+				2BC102152641245F000E90A2 /* ZZCollectionViewCell.m in Sources */,
 				2B26A41026317F62007F4611 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
