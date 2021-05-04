@@ -34,6 +34,8 @@
     self.window.rootViewController = navController;
     
     [self.window makeKeyAndVisible];
+    
+    [UIApplication sharedApplication].delegate.window = self.window;
 }
 
 

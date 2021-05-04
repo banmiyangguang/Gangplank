@@ -187,7 +187,6 @@
 		2BC1020726404739000E90A2 /* CommonTestClass */ = {
 			isa = PBXGroup;
 			children = (
-				2B26D023263840D8007F4611 /* ZZCommonUtils.h */,
 				2BC1020826404758000E90A2 /* ZZPerson.h */,
 				2BC1020926404758000E90A2 /* ZZPerson.m */,
 			);
@@ -199,6 +198,7 @@
 			children = (
 				2BC1020B26405BF0000E90A2 /* ZZSystemMethodWrapper.h */,
 				2BC1020C26405BF0000E90A2 /* ZZSystemMethodWrapper.m */,
+				2B26D023263840D8007F4611 /* ZZCommonUtils.h */,
 			);
 			path = SystemMethods;
 			sourceTree = "<group>";

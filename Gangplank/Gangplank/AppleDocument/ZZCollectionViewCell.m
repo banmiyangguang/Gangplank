@@ -13,7 +13,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self.contentView addSubview:self.label];
-        self.label.frame = CGRectMake(3, 3, 44, 44);
     }
     return self;
 }
@@ -21,6 +20,18 @@
 - (void)prepareForReuse {
     [super prepareForReuse];
     self.num = @"";
+    self.label.text = nil;
+    
+}
+
+- (void)layoutSubviews {
+    self.label.bounds = CGRectMake(0, 0, 44, 44);
+    self.label.center = CGPointMake(self.frame.size.width / 2, self.frame.size.height / 2);
+}
+
+- (void)setFrame:(CGRect)frame
+{
+    [super setFrame:frame];
 }
 
 - (void)refreshData {
@@ -33,6 +44,7 @@
         _label.textColor = [UIColor grayColor];
         _label.text = self.num;
         _label.backgroundColor = [UIColor redColor];
+        _label.textAlignment = NSTextAlignmentCenter;
     }
     return _label;
 }

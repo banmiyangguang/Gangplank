@@ -6,6 +6,7 @@
 //
 
 #import "ZZCollectionViewFlowLayout.h"
+#import "ZZCommonUtils.h"
 
 @implementation ZZCollectionViewFlowLayout
 
@@ -16,7 +17,8 @@
         self.minimumLineSpacing = 20;
         self.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
         self.itemSize = CGSizeMake(50, 50);
-        self.headerReferenceSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, 30);
+        CGFloat width = [UIApplication sharedApplication].delegate.window.bounds.size.width;
+        self.headerReferenceSize = CGSizeMake(width, 30);
     }
     return self;
 }
