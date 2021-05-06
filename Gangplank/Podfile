@@ -1,0 +1,4 @@
+platform :ios, '9.0'
+target 'Gangplank' do
+pod 'AFNetworking', '~>4.0.0'
+end
