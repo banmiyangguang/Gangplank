@@ -13,6 +13,7 @@
 
 @property (nonatomic, strong) UIButton *albumButton;
 @property (nonatomic, strong) KVOTest  *kvoTest;
+@property (nonatomic, strong) ZZAlbumViewController *albumVC;
 
 @end
 
@@ -21,15 +22,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor greenColor];
 
     [self.view addSubview:self.albumButton];
-    
-    // kvo test
-    _kvoTest = [[KVOTest alloc] init];
-    
-    NSString *testStr = @"helloworld";
-    NSLog(@"%@", [testStr capitalizedString]);
+
+    // 添加手势
+    UISwipeGestureRecognizer *pullOtherViewController = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(pullOthterViewController:)];
+    pullOtherViewController.direction = UISwipeGestureRecognizerDirectionUp;
+    [self.view addGestureRecognizer:pullOtherViewController];
+}
+
+- (void)pullOthterViewController:(UISwipeGestureRecognizer *)recognizer
+{
+    [self presentViewController:self.albumVC animated:YES completion:nil];
+}
+
+- (ZZAlbumViewController *)albumVC
+{
+    if (!_albumVC) {
+        _albumVC = [[ZZAlbumViewController alloc] init];
+    }
+    return _albumVC;
 }
 
 - (UIButton *)albumButton {
@@ -44,9 +57,7 @@
 
 - (void)clickAlbumButton:(UIButton *)button
 {
-    ZZAlbumViewController *albumVC = [[ZZAlbumViewController alloc] init];
-    [self.navigationController presentViewController:albumVC animated:YES completion:nil];
-//    _kvoTest.person.age ++;
+    [self presentViewController:self.albumVC animated:YES completion:nil];
 }
 
 @end
